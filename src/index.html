@@ -1,17 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Downloads</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 1rem;
+        }
+        main {
+            padding: 2rem;
+        }
+        a {
+            display: inline-block;
+            margin: 0.5rem;
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 0.25rem;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>Combined Systmes Technology</h1>
-  </main>
+    <header>
+        <h1>Download Files</h1>
+    </header>
+    <main>
+        <h2>Available Files</h2>
+        <p><a href="files/sample1.pdf" download>Download Sample PDF 1</a></p>
+        <p><a href="files/sample2.pdf" download>Download Sample PDF 2</a></p>
+        <p><a href="files/sample3.zip" download>Download Sample ZIP</a></p>
+        <p><a href="files/sample4.docx" download>Download Sample DOCX</a></p>
+    </main>
 </body>
-
 </html>
